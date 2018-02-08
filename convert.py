@@ -1,4 +1,6 @@
 import cc_dat_utils
+cc_dat_utils.make_cc_data_from_dat("C:/Users/cassi/Documents/GitHub/cc_tools/data/pfgd_test.dat")
+print(cc_dat_utils.make_cc_data_from_dat("C:/Users/cassi/Documents/GitHub/cc_tools/data/pfgd_test.dat"))
 
 #Part 1
 #Use cc_data_utils.make_cc_data_from_dat() to load pfgd_test.dat
