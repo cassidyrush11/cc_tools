@@ -15,24 +15,12 @@ import json
 input_json_file = "data/test_data.json"
 
 ### Begin Add Code Here ###
-#myGameLibrary = test_data.GameLibrary()
-#myGame = test_data.Game()
-#myGame.title = "Chip's Challenge"
-#myGame.year = 1989
-#myGameLibrary.add_game(myGame)
-#print("Game made in code:")
-#print(myGame)
-#print("")
 
 
 with open("C:/Users/cassi/Documents/GitHub/cc_tools/test_data.json", 'r') as reader:
     game_data = json.load(reader)
-print(game_data)
-
-myGameFromJson = test_json_utils.make_game_library_from_json(game_data)
-#print("Game loaded from JSON:")
-print(myGameFromJson)
-
+game_library = test_json_utils.make_game_library_from_json(game_data)
+print(game_library)
 
 
 
@@ -47,3 +35,5 @@ print(myGameFromJson)
 #Load your custom JSON file
 #Convert JSON data to cc_data
 #Save converted data to DAT file
+
+#with open("")

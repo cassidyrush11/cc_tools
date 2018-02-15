@@ -1,39 +1,30 @@
 [
-	{
-		"game 1" :
-			{
-				"title" : "Chip's Challenge",
-				"year" : 1989,
-				"platform" :
-				{
-					"launch_year" : 1989,
-					"name" : "Atari Lynx"
-				}
-			}
-	},
-	{
-		"game 2" :
-			{
-				"title" : "Chip's Challenge 2",
-				"year" : 2015,
-				"platform" :
-				{
-					"launch_year" : 2003,
-					"name" : "Steam"
-				}
-			}
 
+	{
+		"title" : "Chip's Challenge",
+		"year" : 1989,
+		"platform" :
+		{
+			"launch_year" : 1989,
+			"name" : "Atari Lynx"
+		}
 	},
 	{
-		"game 3" :
-			{
-				"title" : "Chip's Challenge 3",
-				"year" : 2018,
-				"platform" :
-				{
-					"launch_year" : 2018,
-					"name" : "Cassidy"
-				}
-			}
+		"title" : "Chip's Challenge 2",
+		"year" : 2015,
+		"platform" :
+		{
+			"launch_year" : 2003,
+			"name" : "Steam"
+		}
+	},
+	{
+		"title" : "Chip's Challenge 3",
+		"year" : 2018,
+		"platform" :
+		{
+			"launch_year" : 2018,
+			"name" : "Cassidy"
+		}
 	}
 ]
